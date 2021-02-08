@@ -2,13 +2,13 @@
 
 const express = require('express');
 const chalk = require('chalk');
-const htmlRoutes = require('./routes/htmlRoutes');
-const apiRoutes = require('./routes/apiRoutes');
+//const htmlRoutes = require('./routes/htmlRoutes');
+//const apiRoutes = require('./routes/apiRoutes');
 
 // EXPRESS CONFIGURATION
 const app = express();
-// whatever is specified in the user environment or port 3000
-const PORT = process.env.PORT || 3000;
+// whatever is specified in the user environment or port 3001
+const PORT = process.env.PORT || 3001;
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
@@ -18,8 +18,8 @@ app.use(express.static('public'));
 
 // ROUTER
 
-require(apiRoutes)(app);
-require(htmlRoutes)(app);
+require('./routes/apiRoutes')(app);
+require('./routes/htmlRoutes')(app);
 
 // LISTENER
 
