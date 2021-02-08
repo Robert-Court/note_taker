@@ -12,7 +12,7 @@
 7. [Questions](#quest)
 8. [License](#license)
 ### <a name="image">Image</a>
-![Screenshot](../noteTaker-screenShot.JPG)
+![Screenshot](Develop/public/assets/noteTaker-screenShot.JPG)
 ### <a name="desc">Description</a>
 This is a basic note-taker app. Users can:
 * Write and store notes (reminders).
