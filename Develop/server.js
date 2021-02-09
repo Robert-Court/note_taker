@@ -2,8 +2,8 @@
 
 const express = require('express');
 const chalk = require('chalk');
-//const htmlRoutes = require('./routes/htmlRoutes');
-//const apiRoutes = require('./routes/apiRoutes');
+const htmlRoutes = require('./routes/htmlRoutes');
+const apiRoutes = require('./routes/apiRoutes');
 
 // EXPRESS CONFIGURATION
 const app = express();
