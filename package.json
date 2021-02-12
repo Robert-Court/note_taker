@@ -4,7 +4,7 @@
   "description": "--- [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "node ./Develop/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
